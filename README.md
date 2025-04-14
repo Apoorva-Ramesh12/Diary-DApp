@@ -1,13 +1,18 @@
-# Sample Hardhat Project
+## Diary DApp
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+Objective
+To build a decentralized diary application (DApp) that allows users to write and store personal diary entries securely on the blockchain. The goal is to ensure confidentiality and integrity of data, leveraging blockchain’s tamper-proof nature.
 
-Try running some of the following tasks:
+Project Description
+In this Diary DApp, users connect their MetaMask wallet to interact with a smart contract deployed on a local Ganache test network. Once connected, the user can write a diary entry in the interface and click on Add Entry. This action triggers a request to the MetaMask wallet, which prompts the user to confirm the transaction. Upon confirmation, the entry is stored on the blockchain through the deployed smart contract. All previous diary entries are displayed under the Your Diary Entries section.
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+Technologies Used
+Frontend : React.js
+Blockchain Development : Solidity
+Development & Deployment : Hardhat, Ganache
+Wallet Integration : MetaMask
+
+Team Members
+Apeksha N
+Apoorva Ramesh 
+Vaibhav Vinod Marar
